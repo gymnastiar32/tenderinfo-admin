@@ -1,6 +1,6 @@
 <?php include "template/header.php"; ?>
-
 <?php include "template/sidebar.php"; ?>
+<?php include "template/topbar.php"; ?>
 <?php include "template/pageheader.php"; ?>
 
 <div class="wrapper wrapper-content">
@@ -19,20 +19,20 @@
                     <div class="row">
                         <div class="col-lg-4">
                             <div class="d-flex align-items-center mt-4 mt-lg-0">
-                                <img class="mr-3" src="img/pin.png" alt="phone" style="width: 70px;">
+                                <img class="mr-3" draggable="false" src="img/pin.png" alt="pin" style="width: 70px;">
                                 <p class="font-bold">Wijaya Graha Puri, Blok H-33. Jl. Wijaya II Jakarta 12160</p>
                             </div>
                         </div>
                         <div class="col-lg-4">
                             <div class="d-flex align-items-center mt-4 mt-lg-0">
-                                <img class="mr-3" src="img/phone.png" alt="phone" style="width: 70px;">
+                                <img class="mr-3" draggable="false" src="img/phone.png" alt="phone" style="width: 70px;">
                                 <p class="font-bold">Purwo Hendrianto <br>
                                     081281653881</p>
                             </div>
                         </div>
                         <div class="col-lg-4">
                             <div class="d-flex align-items-center mt-4 mt-lg-0">
-                                <img class="mr-3" src="img/pin.png" alt="phone" style="width: 70px;">
+                                <img class="mr-3" draggable="false" src="img/envelope.png" alt="envelope" style="width: 70px;">
                                 <p class="font-bold">cs@pengadaan.com <br>
                                     ipung@adw.co.id</p>
                             </div>

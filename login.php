@@ -35,17 +35,17 @@
                 <div class="col-md-6">
                     <div class="ibox-content">
                         <div class="login-header text-center">
-                            <img class="mb-3 mt-2" src="img/pengadaan.png" alt="">
+                            <img class="mb-3 mt-2" draggable="false" src="img/pengadaan.png" alt="">
                             <span class="font-bold block">Admin Login</span>
                             <span class="block">Tender Info Pengadaan.com</span>
                         </div>
                         <form class="m-t" role="form" action="index.html">
-                            <div class="form-group">
-                                <label for="username" class="font-bold">Username</label>
+                            <div class="form-group mb-2">
+                                <label for="username" class="font-bold mb-1">Username</label>
                                 <input type="email" id="username" name="username" class="form-control b-r-md" placeholder="Input Username Here" required="">
                             </div>
-                            <div class="form-group">
-                                <label for="password" class="font-bold">Password</label>
+                            <div class="form-group mb-3">
+                                <label for="password" class="font-bold mb-1">Password</label>
                                 <input type="password" id="password" name="password" class="form-control b-r-md" placeholder="Input Password Here" required="">
                             </div>
                             <div class="action d-flex align-items-center justify-content-between m-b">
@@ -56,9 +56,9 @@
                             </div>
                         </form>
                         <div class="login-footer text-center">
-                            <img class="mb-1" src="img/pin2.png" alt="">
-                            <p class="text-center font-bold">Wijaya Graha Puri Blok H-33 Jalan Wijaya II, Jakarta Selatan</p>
-                            <p class="text-center font-bold">Copyright 2020 &copy; <span class="text-primary">PT. Anggada Duta Wisesa</span>, All Rights Reserved</p>
+                            <img class="p-2" draggable="false" src="img/pin2.png" alt="">
+                            <p class="text-center font-bold m-1">Wijaya Graha Puri Blok H-33 Jalan Wijaya II, Jakarta Selatan</p>
+                            <p class="text-center font-bold m-0">Copyright 2020 &copy; <span class="text-primary">PT. Anggada Duta Wisesa</span>, All Rights Reserved</p>
                         </div>
                     </div>
                 </div>

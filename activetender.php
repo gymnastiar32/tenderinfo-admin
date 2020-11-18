@@ -1,5 +1,6 @@
 <?php include "template/header.php"; ?>
 <?php include "template/sidebar.php"; ?>
+<?php include "template/topbar.php"; ?>
 <?php include "template/pageheader.php"; ?>
 
 <div class="wrapper wrapper-content">
@@ -17,7 +18,7 @@
                 <div class="ibox-content">
                     <div class="table-responsive">
                         <div id="toolbar">
-                            <button class="btn btn-add">
+                            <button class="btn btn-add" onclick="location.href='activetender_add.php'">
                                 <div class="add-icon">
                                     <i class="fa fa-plus"></i>
                                 </div>

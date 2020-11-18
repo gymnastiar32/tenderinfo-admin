@@ -4,7 +4,7 @@
             <ul class="nav metismenu" id="side-menu">
                 <li class="nav-header">
                     <div class="logo-element-lg">
-                        <img class="w-100" src="img/pengadaan.png" alt="logo pengadaan">
+                        <img class="w-100" draggable="false" src="img/white-logo.png" alt="logo pengadaan">
                     </div>
                 </li>
                 <li class="bg-primary-dark mb-2 header">

@@ -48,6 +48,15 @@
 <script src="js/plugins/dataTables/dataTables.bootstrap4.min.js"></script>
 
 <script src="https://unpkg.com/bootstrap-table@1.18.0/dist/bootstrap-table.min.js"></script>
+<script src="https://unpkg.com/bootstrap-table@1.18.0/dist/extensions/export/bootstrap-table-export.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script>
+
+<script src="js/plugins/datapicker/bootstrap-datepicker.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/jstree.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
 
 <script>
     $(document).ready(function() {
@@ -65,6 +74,36 @@
     $(function() {
         $('#table').bootstrapTable()
     })
+
+    var mem = $('#data_1 .input-group.date').datepicker({
+        todayBtn: "linked",
+        keyboardNavigation: false,
+        forceParse: false,
+        calendarWeeks: true,
+        autoclose: true
+    });
+
+    $(document).ready(function() {
+        $('#summernote').summernote({
+            tooltip: false
+        });
+    });
+
+    $(function() {
+        $('.category-jstree').jstree({
+            'core': {
+                'themes': {
+                    'name': 'proton',
+                    'icons': false
+                }
+            },
+            "plugins": ["checkbox"]
+        });
+    });
+
+    $('.select2-basic').select2({
+        placeholder: 'Select an option'
+    });
 </script>
 </body>
 

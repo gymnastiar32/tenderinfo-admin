@@ -1,78 +1,87 @@
 <?php include "template/header.php"; ?>
 <?php include "template/sidebar.php"; ?>
+<?php include "template/topbar.php"; ?>
 <?php include "template/pageheader.php"; ?>
 
 <div class="wrapper wrapper-content">
     <div class="row">
         <div class="col-xl-3 col-md-6">
             <div class="ibox">
-                <div class="widget-head-color-box mt-0 white-bg px-3 py-4 text-center">
-                    <div class="row">
-                        <div class="col-md-8 text-left">
-                            <h2 class="font-bold text-primary m-0" style="font-size: 32px; font-weight:800;">27,443</h2>
-                            <span>Total Tenders</span>
-                        </div>
-                        <div class="col-md-4">
-                            <img src="img/briefcase.png" class="widget-image" alt="briefcase">
+                <div class="widget-info">
+                    <div class="widget-head-color-box mt-0 white-bg px-3 py-4 text-center">
+                        <div class="row">
+                            <div class="col-md-8 text-left">
+                                <h2 class="font-bold text-primary m-0" style="font-size: 32px; font-weight:800;">27,443</h2>
+                                <span>Total Tenders</span>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="img/briefcase.png" class="widget-image" alt="briefcase">
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="border-top-md white-bg text-center py-2">
-                    <a href="" class="text-primary"><strong>Free Info Tender</strong></a>
+                    <div class="border-top-md white-bg text-center py-2">
+                        <a href="" class="text-primary"><strong>Free Info Tender</strong></a>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="col-xl-3 col-md-6">
             <div class="ibox">
-                <div class="widget-head-color-box mt-0 white-bg px-3 py-4 text-center">
-                    <div class="row">
-                        <div class="col-md-8 text-left">
-                            <h2 class="font-bold text-primary m-0" style="font-size: 32px; font-weight:800;">904</h2>
-                            <span>Active Tenders</span>
-                        </div>
-                        <div class="col-md-4">
-                            <img src="img/chart.png" class="widget-image" alt="chart">
+                <div class="widget-info">
+                    <div class="widget-head-color-box mt-0 white-bg px-3 py-4 text-center">
+                        <div class="row">
+                            <div class="col-md-8 text-left">
+                                <h2 class="font-bold text-primary m-0" style="font-size: 32px; font-weight:800;">904</h2>
+                                <span>Active Tenders</span>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="img/chart.png" class="widget-image" alt="chart">
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="border-top-md white-bg text-center py-2">
-                    <a href="" class="text-primary"><strong>More Info</strong></a>
+                    <div class="border-top-md white-bg text-center py-2">
+                        <a href="" class="text-primary"><strong>More Info</strong></a>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="col-xl-3 col-md-6">
             <div class="ibox">
-                <div class="widget-head-color-box mt-0 white-bg px-3 py-4 text-center">
-                    <div class="row">
-                        <div class="col-md-8 text-left">
-                            <h2 class="font-bold text-primary m-0" style="font-size: 32px; font-weight:800;">275</h2>
-                            <span>Today's Tender</span>
-                        </div>
-                        <div class="col-md-4">
-                            <img src="img/file.png" class="widget-image" alt="file">
+                <div class="widget-info">
+                    <div class="widget-head-color-box mt-0 white-bg px-3 py-4 text-center">
+                        <div class="row">
+                            <div class="col-md-8 text-left">
+                                <h2 class="font-bold text-primary m-0" style="font-size: 32px; font-weight:800;">275</h2>
+                                <span>Today's Tender</span>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="img/file.png" class="widget-image" alt="file">
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="border-top-md white-bg text-center py-2">
-                    <a href="" class="text-primary"><strong>More Info</strong></a>
+                    <div class="border-top-md white-bg text-center py-2">
+                        <a href="" class="text-primary"><strong>More Info</strong></a>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="col-xl-3 col-md-6">
             <div class="ibox">
-                <div class="widget-head-color-box mt-0 white-bg px-3 py-4 text-center">
-                    <div class="row">
-                        <div class="col-md-8 text-left">
-                            <h2 class="font-bold text-primary m-0" style="font-size: 32px; font-weight:800;">9,386</h2>
-                            <span>Members</span>
-                        </div>
-                        <div class="col-md-4">
-                            <img src="img/members.png" class="widget-image" alt="members">
+                <div class="widget-info">
+                    <div class="widget-head-color-box mt-0 white-bg px-3 py-4 text-center">
+                        <div class="row">
+                            <div class="col-md-8 text-left">
+                                <h2 class="font-bold text-primary m-0" style="font-size: 32px; font-weight:800;">9,386</h2>
+                                <span>Members</span>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="img/members.png" class="widget-image" alt="members">
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="border-top-md white-bg text-center py-2">
-                    <a href="" class="text-primary"><strong>Join Us</strong></a>
+                    <div class="border-top-md white-bg text-center py-2">
+                        <a href="" class="text-primary"><strong>Join Us</strong></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -186,9 +195,9 @@
                             </tbody>
                         </table>
                     </div>
-                </div>
-                <div class="ibox-footer text-center">
-                    <a href="">Tampilkan Semua Info RFI</a>
+                    <div class="text-center py-2 border-top">
+                        <a href="rfi.php">Tampilkan Semua Data RFI</a>
+                    </div>
                 </div>
             </div>
         </div>
